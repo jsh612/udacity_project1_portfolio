@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+
+.header {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid green;
+    width: 100%;
+}
+
+.head-img {
+    flex: 1;
+    width: 50%;
+}
+
+#logo {
+    width: 100px;
+    height: 80px;
+    padding: auto 0 auto 0;
+}
+
+.head-text {
+    flex: 1;
+    width: 50%;
+    text-align: right;
+    font-style: bold;
+}
+
+
+/*
+ *
+ * Main
+ *
+ */
+
+
+.main {
+    flex: 8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-img {
+    margin: 1% 0 0 0;
+    flex: 3;
+    height: 800px;
+}
+
+#promgraming-img {
+    width: 100%;
+    height: 40%;
+}
+
+.work-list {
+    width: 100%;
+    height: 500px;
+    flex: 7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works {
+    flex: 1;
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.work-github-link {
+    text-decoration: none;
+}
+
+.work-img {
+    width: 300px;
+    height: 50%;
+}
+
+.work-name {
+    margin: 0;
+}
+
+.work-github {
+    margin: 0;
+}
+
+
+/*
+ *
+ * Footer
+ *
+ */
+
+
+.footer {
+    border-top: 2px solid green;
+}
+
+.contact {
+    font-style: italic;
+}
+
+.contact-address {
+    margin: 0;
+}
+
+
+
